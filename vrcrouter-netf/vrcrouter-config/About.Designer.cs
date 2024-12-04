@@ -43,7 +43,7 @@
       this.label6.Name = "label6";
       this.label6.Size = new System.Drawing.Size(267, 15);
       this.label6.TabIndex = 18;
-      this.label6.Text = "Copyright (c) 2023 ValueFactory https://value.gay";
+      this.label6.Text = "Copyright (c) 2023 ValueFactory [Fix]";
       // 
       // version
       // 
@@ -99,7 +99,7 @@
       this.linkLabel1.Size = new System.Drawing.Size(109, 15);
       this.linkLabel1.TabIndex = 12;
       this.linkLabel1.TabStop = true;
-      this.linkLabel1.Text = "https://shader.gay/";
+      this.linkLabel1.Text = "https://sk3artemis.github.io/hello";
       this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
       // 
       // label3
