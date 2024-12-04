@@ -21,5 +21,4 @@ Final binaries will be placed in staging/ship/
 For a proper release, the final package should contain the following files/folders:
   * manifest.vrmanifest
   * openvr_api.dll
-  * USAGE.txt
   * route presets
