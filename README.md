@@ -9,13 +9,7 @@ Lightweight and configurable OSC router for VRChat PCVR.
 * Application autostarting and autoclosing.
 
 ## Download
-[Download from the Releases page](https://github.com/valuef/VRCRouter/releases/)
-
-## Usage Tutorial
-https://www.youtube.com/watch?v=8abMvrzguo4
-
-## Issues/Merges
-I don't check GitHub so poke me on [other socials](https://shader.gay) in case you've opened a ticket.
+[If i ever release this fixed thing..](https://github.com/SK3Artemis/VRCRouter/releases/)
 
 ## Building release
 Run the compile-release-all-netf.sh script on cygwin.
