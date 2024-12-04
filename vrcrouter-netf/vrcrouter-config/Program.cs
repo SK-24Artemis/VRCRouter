@@ -340,8 +340,8 @@ namespace ValueFactoryVRCRouterConfig {
         wrapped_main();
       }
       catch(Exception ex) {
-        MessageBox.Show($"Uh oh! We've encountered an unhandled error! Please let us know about this at discord.shader.gay\r\n\r\n\r\n{ex}\r\n\r\nThe boop counter will now exit.", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        Process.Start(new ProcessStartInfo() { FileName = "https://discord.shader.gay", UseShellExecute = true });
+        MessageBox.Show($"Uh oh! We've encountered an unhandled error! [Fix]. The boop counter will now exit.", TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        Process.Start(new ProcessStartInfo() { FileName = "https://sk3artemis.github.io/hello", UseShellExecute = true });
       }
     }
 
