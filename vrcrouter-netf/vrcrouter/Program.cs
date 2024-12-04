@@ -147,7 +147,7 @@ namespace ValueFactoryVRCRouterCommon {
       }
       catch(Exception ex) {
         msg_box($"Uh oh! We've encountered an unhandled error. [Fix]. The router will now exit.", MB_OK | MB_ICONERROR);
-        Process.Start(new ProcessStartInfo() { FileName = "https://sk3artemis.github.io/test", UseShellExecute = true });
+        Process.Start(new ProcessStartInfo() { FileName = "https://sk3artemis.github.io/hello", UseShellExecute = true });
       }
     }
 
