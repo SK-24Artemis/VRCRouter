@@ -1,4 +1,4 @@
-# VRCRouter
+# VRCRouter [Fix]
 Lightweight and configurable OSC router for VRChat PCVR.
 
 ## Features
