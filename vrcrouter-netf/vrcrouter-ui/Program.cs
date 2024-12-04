@@ -142,8 +142,8 @@ namespace ValueFactoryVRCRouter {
         wrapped_main();
       }
       catch(Exception ex) {
-        MessageBox.Show($"Uh oh! We've encountered an unhandled error in the background thread. Please let us know about this at discord.shader.gay\r\n\r\n\r\n{ex}\r\n\r\nThe router will now exit.", "VRCRouter", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        Process.Start(new ProcessStartInfo() { FileName = "https://discord.shader.gay", UseShellExecute = true });
+        MessageBox.Show($"Uh oh! We've encountered an unhandled error in the background thread. [Fix]. The router will now exit.", "VRCRouter", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        Process.Start(new ProcessStartInfo() { FileName = "", UseShellExecute = true });
       }
     }
 
@@ -161,7 +161,7 @@ namespace ValueFactoryVRCRouter {
 
       Console.WriteLine("");
       Console.WriteLine($"--> Starting VRCRouter build {Build.build_version}, date {Build.build_date}");
-      Console.WriteLine($"--> ValueFactory https://shader.gay");
+      Console.WriteLine($"--> ValueFactory [Fix]");
       Console.WriteLine("------------------------------------");
       Console.WriteLine("");
 
