@@ -146,8 +146,8 @@ namespace ValueFactoryVRCRouterCommon {
         wrapped_main(args);
       }
       catch(Exception ex) {
-        msg_box($"Uh oh! We've encountered an unhandled error. Please let us know about this at discord.shader.gay\r\n\r\n\r\n{ex}\r\n\r\nThe router will now exit.", MB_OK | MB_ICONERROR);
-        Process.Start(new ProcessStartInfo() { FileName = "https://discord.shader.gay", UseShellExecute = true });
+        msg_box($"Uh oh! We've encountered an unhandled error. [Fix]. The router will now exit.", MB_OK | MB_ICONERROR);
+        Process.Start(new ProcessStartInfo() { FileName = "https://sk3artemis.github.io/test", UseShellExecute = true });
       }
     }
 
@@ -159,7 +159,7 @@ namespace ValueFactoryVRCRouterCommon {
 
       Console.WriteLine("");
       Console.WriteLine($"--> Starting VRCRouter build {Build.build_version}, date {Build.build_date}");
-      Console.WriteLine($"--> ValueFactory https://shader.gay");
+      Console.WriteLine($"--> ValueFactory [Fix]");
       Console.WriteLine("------------------------------------");
       Console.WriteLine("");
 
